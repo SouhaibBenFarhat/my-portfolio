@@ -1,0 +1,8 @@
+@function images_asset_url($location) {
+  @return "../../../public/assets" + $location;
+}
+
+.header{
+  background-image: url(images_asset_url('/images/header-bg.png'));
+  height: 300px;
+}

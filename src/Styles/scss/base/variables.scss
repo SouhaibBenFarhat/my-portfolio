@@ -1,11 +1,11 @@
-@function asset_url($font) {
+@function fonts_asset_url($font) {
   @return "../../../public/assets/fonts/" + $font;
 }
 
 @font-face {
   font-family: 'Fira Sans Condensed';
-  src: url(asset_url('FiraSansCondensed-Bold.woff2')) format('woff2'),
-  url(asset_url('FiraSansCondensed-Bold.woff')) format('woff');
+  src: url(fonts_asset_url('FiraSansCondensed-Bold.woff2')) format('woff2'),
+  url(fonts_asset_url('FiraSansCondensed-Bold.woff')) format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -13,8 +13,8 @@
 
 @font-face {
   font-family: 'Fira Sans Condensed';
-  src: url(asset_url('FiraSansCondensed-Regular.woff2')) format('woff2'),
-  url(asset_url('FiraSansCondensed-Regular.woff')) format('woff');
+  src: url(fonts_asset_url('FiraSansCondensed-Regular.woff2')) format('woff2'),
+  url(fonts_asset_url('FiraSansCondensed-Regular.woff')) format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,8 +22,8 @@
 
 @font-face {
   font-family: 'TT Mussels';
-  src: url(asset_url('TTMussels-Regular.woff2')) format('woff2'),
-  url(asset_url('TTMussels-Regular.woff')) format('woff');
+  src: url(fonts_asset_url('TTMussels-Regular.woff2')) format('woff2'),
+  url(fonts_asset_url('TTMussels-Regular.woff')) format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -31,8 +31,8 @@
 
 @font-face {
   font-family: 'TT Mussels';
-  src: url(asset_url('TTMussels-Bold.woff2')) format('woff2'),
-  url(asset_url('TTMussels-Bold.woff')) format('woff');
+  src: url(fonts_asset_url('TTMussels-Bold.woff2')) format('woff2'),
+  url(fonts_asset_url('TTMussels-Bold.woff')) format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -40,8 +40,8 @@
 
 @font-face {
   font-family: 'Gloria Hallelujah';
-  src: url(asset_url('GloriaHallelujah.woff2')) format('woff2'),
-  url(asset_url('GloriaHallelujah.woff')) format('woff');
+  src: url(fonts_asset_url('GloriaHallelujah.woff2')) format('woff2'),
+  url(fonts_asset_url('GloriaHallelujah.woff')) format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -52,3 +52,7 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 $font-family-base: 'Fira Sans Condensed';
 $font-family-heading: 'TT Mussels';
 $font-family-handmade: 'Gloria Hallelujah';
+
+
+$primary: #3aaa63;
+$secondary: #479FC8;
