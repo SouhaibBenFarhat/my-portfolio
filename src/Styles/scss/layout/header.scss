@@ -2,7 +2,8 @@
   @return "../../../public/assets" + $location;
 }
 
-.header{
+.header {
   background-image: url(images_asset_url('/images/header-bg.png'));
-  height: 300px;
+  padding: 40px;
+  margin-bottom: 30px;
 }

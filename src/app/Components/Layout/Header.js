@@ -10,7 +10,7 @@ const Header = () => {
             <div className='w-100 my-auto'>
                 <Container fluid>
                     <Row>
-                        <Col md={2} className='text-right'>
+                        <Col md={2} className='text-md-right text-sm-center'>
                             <CircularImage src={image}/>
                         </Col>
                         <Col md={8} className='d-flex'>

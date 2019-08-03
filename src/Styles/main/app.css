@@ -37,7 +37,8 @@ body {
   margin: 0;
   font-family: "Fira Sans Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecee !important; }
 
 code {
   font-family: "Fira Sans Condensed", monospace; }
@@ -70,6 +71,12 @@ code {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "TT Mussels"; }
+
+.text-primary {
+  color: #3aaa63; }
+
+.text-grey {
+  color: #ccd1d6; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -7095,4 +7102,5 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header {
   background-image: url("../../../public/assets/images/header-bg.png");
-  height: 300px; }
+  padding: 40px;
+  margin-bottom: 30px; }

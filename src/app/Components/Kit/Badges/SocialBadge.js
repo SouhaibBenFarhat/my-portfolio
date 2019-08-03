@@ -7,7 +7,8 @@ const socialBadgeStyle = {
     borderRadius: '50%',
     fontSize: 24,
     display: 'flex',
-    margin: 5
+    margin: 5,
+    cursor: 'pointer'
 };
 
 const SocialBadge = (props) => {
