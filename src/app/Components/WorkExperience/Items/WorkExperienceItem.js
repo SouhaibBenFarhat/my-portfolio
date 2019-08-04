@@ -10,9 +10,9 @@ import Paper from "../../Kit/Panels/Paper";
 import KeyWords from "./KeyWords";
 import SecondaryButton from "../../Kit/Control/SecondaryButtons";
 
-const WorkExperienceItem = ({jobTitle, dates, description, address, company, companyLink, keyWords, ...props}) => {
+const WorkExperienceItem = ({jobTitle, dates, description, address, company, companyLink, keyWords, expanded, detailLink, ...props}) => {
 
-    const [showMore, setShowMore] = useState(false);
+    const [showMore, setShowMore] = useState(expanded);
 
     return (
         <Paper>
@@ -45,6 +45,11 @@ const WorkExperienceItem = ({jobTitle, dates, description, address, company, com
             <>
                 <Row>
                     <Col md={12}>
+                        <hr/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
                         <p>{description}</p>
                     </Col>
                 </Row>
@@ -58,7 +63,7 @@ const WorkExperienceItem = ({jobTitle, dates, description, address, company, com
                         {props.children}
                     </Col>
                 </Row>
-                <Row>
+                <Row className='mt-4'>
                     <Col md={12}>
                         <p>
                             <b>Key words:</b>
@@ -77,10 +82,16 @@ const WorkExperienceItem = ({jobTitle, dates, description, address, company, com
                     <hr/>
                 </Col>
                 <Col md={12}>
-                    <div className='text-left'>
-                        <SecondaryButton withIcon text={showMore ? 'Show Less' : 'Show More'}
-                                         icon={showMore ? faArrowUp : faArrowDown}
-                                         onClick={() => setShowMore(!showMore)}/>
+                    <div className='d-flex'>
+                        <div className='text-left'>
+                            <SecondaryButton withIcon text={showMore ? 'Show Less' : 'Show More'}
+                                             icon={showMore ? faArrowUp : faArrowDown}
+                                             onClick={() => setShowMore(!showMore)}/>
+                        </div>
+                        <a className='ml-auto my-auto' href={detailLink || companyLink} target='_blank'
+                           rel='noopener noreferrer'>
+                            More detail.
+                        </a>
                     </div>
                 </Col>
             </Row>

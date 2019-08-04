@@ -67,6 +67,15 @@ code {
   to {
     transform: rotate(360deg); } }
 
+.contrib-footer {
+  display: none; }
+
+.wday {
+  font-size: 12px; }
+
+text.month {
+  font-size: 12px !important; }
+
 /*Typography Styles*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {

@@ -15,6 +15,11 @@ const Languages = () => {
                 </Row>
                 <Row>
                     <Col>
+                        <hr/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
                         <p><b>Arabic: </b>Native Speaker</p>
                         <p><b>English: </b>Fluent</p>
                         <p><b>French: </b>Fluent</p>

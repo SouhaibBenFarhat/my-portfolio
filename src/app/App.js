@@ -7,6 +7,9 @@ import Col from "react-bootstrap/Col";
 import RightSideBar from "./Components/Layout/RightSideBar";
 import Row from "react-bootstrap/Row";
 import WorkExperience from "./Components/Sections/WorkExperience";
+import OpenSourceProject from "./Components/Sections/OpenSourceProject";
+import OtherProject from "./Components/Sections/OtherProject";
+import GithubActivity from "./Components/Sections/GithubActivity";
 
 function App() {
     return (
@@ -17,9 +20,16 @@ function App() {
                     <Col md={8}>
                         <AboutMe/>
                         <WorkExperience/>
+                        <OpenSourceProject/>
+                        <OtherProject/>
                     </Col>
                     <Col md={4}>
                         <RightSideBar/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <GithubActivity/>
                     </Col>
                 </Row>
             </Container>

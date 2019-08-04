@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Contact from "../Sections/Contact";
 import Skills from "../Sections/Skills";
 import Languages from "../Sections/Languages";
+import Awards from "../Sections/Awards";
 
 const RightSideBar = () => {
     return (
@@ -24,6 +25,11 @@ const RightSideBar = () => {
             <Row>
                 <Col md={12}>
                     <Languages/>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <Awards/>
                 </Col>
             </Row>
         </>

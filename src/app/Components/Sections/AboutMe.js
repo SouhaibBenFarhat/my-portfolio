@@ -14,8 +14,7 @@ const
                     <Col md={12}>
                         <p>
                             I'm a developer based in <b>Munich, Germany,</b> originally from <b>Tunisia</b>,
-                            specializing in building
-                            <b>WEB</b> & <b>Mobile</b> apps,
+                            specializing in building <b>WEB</b> & <b>Mobile</b> apps,
                             consider myself as <b>full-stack</b> developer mainly using <b>ReactJS</b> with redux,
                             Angular, Nodejs and
                             Sprint-boot. I also enjoy making awesome mobile applications on different platforms

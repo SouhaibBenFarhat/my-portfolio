@@ -63,6 +63,28 @@ const skills = {
             name: 'MongoDB',
             level: 60
         }
+    ],
+    tools: [
+        {
+            name: 'Mac OS X',
+            level: 80
+        },
+        {
+            name: 'Intellij IDE',
+            level: 70
+        },
+        {
+            name: 'GIT',
+            level: 80
+        },
+        {
+            name: 'Linux',
+            level: 80
+        },
+        {
+            name: 'Sketch',
+            level: 80
+        }
     ]
 };
 
@@ -144,6 +166,23 @@ const Skills = () => {
                 <Row>
                     <Col md={12}>
                         <SkillsSet skills={skills.database}/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <hr/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <h6 className='font-weight-bold'>
+                            Tools
+                        </h6>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <SkillsSet skills={skills.tools}/>
                     </Col>
                 </Row>
             </Paper>

@@ -6,6 +6,7 @@ import Title from "../Kit/Typography/Title";
 import WorkExperienceItem from "../WorkExperience/Items/WorkExperienceItem";
 import Achievements from "../WorkExperience/Items/Achievements";
 import Moment from 'react-moment';
+import MediaReader from "../Kit/Video/MediaReader";
 
 const WorkExperience = () => {
     return (
@@ -27,13 +28,15 @@ const WorkExperience = () => {
                 company={'Klarx'}
                 address={'Munich'}
                 companyLink={'https://www.klarx.de'}
+                detailLink={'https://www.klarx.de/jobs'}
+                expanded={true}
                 dates={
                     <span>January 2019 - Present
                         <span> (<Moment diff='2019-01-01' unit='months'>{new Date()}</Moment> months)</span>
                     </span>
                 }
                 description={'klarx is a Munich based start-up operating an online platform for construction equipment and heavy machinery rental. As an independent full-service provider, klarx digitalizes the entire rental process for rental stations and lessees. The platform offers efficient and transparent overviews of final rental prices – including logistics and insurance – and availabilities for equipment all over Germany. Thus, klarx enables the customer to get the best price in the shortest time.'}
-                keyWords={['ReactJS', 'Redux', 'CSS', 'HTML', 'Javascript', 'JQuery', 'RestAPI', 'RestAPI', 'UX/ UI Design', 'Component Based Architecture', 'Material-design', 'Rails', 'Ruby', 'MVC', 'RestAPI', 'Postgresql', 'Rake Tasks', 'Delay Job']}>
+                keyWords={['ReactJS', 'Redux', 'CSS', 'HTML', 'Javascript', 'JQuery', 'RestAPI', 'UX/ UI Design', 'Component Based Architecture', 'Material-design', 'Rails', 'Ruby', 'MVC', 'PostgresQL', 'Rake Tasks', 'Delay Job']}>
                 <Achievements achievements={
                     [
                         'Manage products, Rentals, Supplier stations.',
@@ -45,11 +48,14 @@ const WorkExperience = () => {
                     ]
                 }
                 />
+                <MediaReader publication
+                             link={'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fklarx.de%2Fposts%2F833729143693997&width=500'}/>
             </WorkExperienceItem>
             <WorkExperienceItem
                 jobTitle={'Frontend Javascript Developer - Internship (ReactJS)'}
                 company={'Motius With BMW'}
                 companyLink={'https://360.here.com/socrates-2'}
+                expanded={true}
                 address={'Munich'}
                 dates={
                     <span>July 2018 – November 2018
@@ -69,12 +75,14 @@ const WorkExperience = () => {
                     ]
                 }
                 />
+                <MediaReader video link={'https://www.facebook.com/here/videos/474822936330920/'}/>
             </WorkExperienceItem>
             <WorkExperienceItem
                 jobTitle={'Full Stack Developer - Internship (ReactJS/Django)'}
                 company={'Motius'}
                 companyLink={'https://www.motius.de'}
                 address={'Munich'}
+                expanded={true}
                 dates={
                     <span>April 2018 – November 2018
                         <span> (<Moment diff='2018-04-01' unit='months'>{'2018-11-01'}</Moment> months)</span>
@@ -86,6 +94,9 @@ const WorkExperience = () => {
                     Documentation, Talent profiles, Vacation tracking of employees, Project management, Workers Profile,
                     Time Tracking, Talent Matching, Open Opportunities, Contract management. and many more.
                 </p>
+
+                <MediaReader publication
+                             link={'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmotius.de%2Fposts%2F1996918750347496%3A0&width=500&show_text=true&appId=1263398917074792&height=505'}/>
             </WorkExperienceItem>
             <WorkExperienceItem
                 jobTitle={'Android Developer - Remote (Android, Java)'}
