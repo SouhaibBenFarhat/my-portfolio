@@ -10,6 +10,7 @@ import WorkExperience from "./Components/Sections/WorkExperience";
 import OpenSourceProject from "./Components/Sections/OpenSourceProject";
 import OtherProject from "./Components/Sections/OtherProject";
 import GithubActivity from "./Components/Sections/GithubActivity";
+import FixedPopup from "./Components/Layout/FixedPopup";
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                     </Col>
                 </Row>
             </Container>
+            <FixedPopup/>
         </div>
     );
 }
