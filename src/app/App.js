@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import RightSideBar from "./Components/Layout/RightSideBar";
 import Row from "react-bootstrap/Row";
+import WorkExperience from "./Components/Sections/WorkExperience";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Row>
                     <Col md={8}>
                         <AboutMe/>
+                        <WorkExperience/>
                     </Col>
                     <Col md={4}>
                         <RightSideBar/>

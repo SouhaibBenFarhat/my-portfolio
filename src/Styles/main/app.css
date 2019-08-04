@@ -75,8 +75,17 @@ h1, h2, h3, h4, h5, h6,
 .text-primary {
   color: #3aaa63; }
 
+.text-secondary {
+  color: #479FC8; }
+
 .text-grey {
   color: #ccd1d6; }
+
+.text-dark-grey {
+  color: #778492; }
+
+.text-red {
+  color: #dc3545; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

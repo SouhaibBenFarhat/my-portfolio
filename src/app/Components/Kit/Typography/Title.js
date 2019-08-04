@@ -2,9 +2,17 @@ import React from 'react'
 
 const Title = ({title}) => {
     return (
-        <h1 className='font-weight-bold'>
+        <h2 className='font-weight-bold'>
             {title}
-        </h1>
+        </h2>
+    )
+};
+
+export const SubTitle = ({title}) => {
+    return (
+        <h5 className='font-weight-bold text-dark-grey'>
+            {title}
+        </h5>
     )
 };
 

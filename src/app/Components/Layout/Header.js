@@ -22,7 +22,9 @@ const Header = () => {
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <h2 className='text-white'>Web & Mobile Developer</h2>
+                                        <h2 className='text-white'>
+                                            Full Stack Developer in LOVE with Javascript
+                                        </h2>
                                     </Col>
                                 </Row>
                                 <Row>

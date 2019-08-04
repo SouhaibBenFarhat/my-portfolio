@@ -8,11 +8,19 @@ const TextWithIconStyle =
     };
 
 
-const TextWithIcon = ({icon, text}) => {
+const TextWithIcon = ({icon, text, iconColor, bold, link}) => {
     return (
-        <div className='d-flex my-3'>
-            <FontAwesomeIcon style={TextWithIconStyle} icon={icon} className='text-grey'/>
-            <p className='my-auto'>{text}</p>
+        <div className='d-flex my-1'>
+            <FontAwesomeIcon style={TextWithIconStyle} icon={icon} className={iconColor || 'text-grey'}/>
+            {link ?
+                <a href={link} target='_blank' rel="noopener noreferrer" className='my-auto'>
+                    {bold ? <b>{text}</b> : text}
+                </a>
+                :
+                <p className='my-auto'>
+                    {bold ? <b>{text}</b> : text}
+                </p>
+            }
         </div>
     )
 };

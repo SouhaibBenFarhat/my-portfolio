@@ -1,10 +1,10 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const PrimaryButtonStyle = {
-    backgroundColor: '#54ba4e',
+const SecondaryButtonStyle = {
+    backgroundColor: '#479FC8',
     padding: '8px 16px',
-    border: '1px solid #54ba4e',
+    border: '1px solid #479FC8',
     fontSize: 16,
     display: 'flex',
     color: 'white',
@@ -26,14 +26,14 @@ const PrimaryButtonStyle = {
     }
 };
 
-const PrimaryButton = ({icon, withIcon, text, onClick}) => {
+const SecondaryButton = ({icon, withIcon, text, onClick}) => {
     return (
-        <div style={PrimaryButtonStyle.parent} className='d-print-none'>
-            <div style={PrimaryButtonStyle} onClick={onClick}>
-                <span style={PrimaryButtonStyle.icon}>
+        <div style={SecondaryButtonStyle.parent} className='d-print-none'>
+            <div style={SecondaryButtonStyle} onClick={onClick}>
+                <span style={SecondaryButtonStyle.icon}>
                     {withIcon ? <FontAwesomeIcon icon={icon} className='text-light'/> : null}
                 </span>
-                <span style={PrimaryButtonStyle.span}>
+                <span style={SecondaryButtonStyle.span}>
                     {text}
                 </span>
             </div>
@@ -41,4 +41,4 @@ const PrimaryButton = ({icon, withIcon, text, onClick}) => {
     )
 };
 
-export default PrimaryButton
+export default SecondaryButton

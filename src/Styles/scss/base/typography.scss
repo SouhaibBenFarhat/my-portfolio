@@ -8,8 +8,20 @@ h1, h2, h3, h4, h5, h6,
   color: $primary;
 }
 
+.text-secondary {
+  color: $secondary;
+}
+
 .text-grey {
   color: $grey;
+}
+
+.text-dark-grey {
+  color: $dark-grey;
+}
+
+.text-red{
+  color : $red;
 }
 
 
