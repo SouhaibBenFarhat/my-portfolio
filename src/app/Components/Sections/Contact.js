@@ -12,8 +12,9 @@ const Contact = () => {
         <div>
             <TextWithIcon icon={faMapPin} text={'Munich, Germany'}/>
             <TextWithIcon icon={faSkype} text={<a href='/'>Souhaib.BENFARHAT</a>}/>
-            <TextWithIcon icon={faPhone} text={<a href='/'>+491632149290</a>}/>
-            <TextWithIcon icon={faMailBulk} text={<a href='/'>souhaib.b.farhat@gmail.com</a>}/>
+            <TextWithIcon icon={faPhone} text={<a href='tel:+491632149290'>+491632149290</a>}/>
+            <TextWithIcon icon={faMailBulk}
+                          text={<a href='mailto:souhaib.b.farhat@gmail.com'>souhaib.b.farhat@gmail.com</a>}/>
             <div className='mt-2'>
                 <PrimaryButton withIcon text={'Contact Me'} icon={faLocationArrow}/>
             </div>

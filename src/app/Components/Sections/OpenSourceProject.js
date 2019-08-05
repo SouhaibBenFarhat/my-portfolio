@@ -17,7 +17,7 @@ const OpenSourceProject = () => {
                     <Col md={12}>
                         <p>This is a short overview about some of my open source projects, some of those projects are
                             usually build
-                            for learning purposes as side projects where I can use and latest technologies in order to
+                            for learning purposes as side projects where I can use and learn latest technologies in order to
                             improve my knowledge and discover new frameworks. And some other projects are build in
                             academical context as part of my University courses.</p>
                     </Col>
