@@ -12,14 +12,8 @@ import {Route, Switch} from "react-router-dom";
 import LocationListener from "./HOC/LocationListener";
 import AsyncComponent from './HOC/AsyncComponent';
 import NavigationBar from "./Components/Layout/NavigationBar";
-import GetInstagramFeed from "./HttpRequests/Instagram";
-
 
 function App() {
-
-    GetInstagramFeed().then((data) => {
-        console.log(data);
-    });
 
     return (
         <div className="App">

@@ -99,6 +99,11 @@ const Skills = () => {
                 </Row>
                 <Row>
                     <Col md={12}>
+                        <hr/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
                         <p>
                             During my career as a software developer, I worked hard on many different projects (Front &
                             backend) and that's helped me to acquire and build a good technical background in building

@@ -20,15 +20,13 @@ const InstagramFeed = () => {
         })
     }, []);
 
-    console.log(feeds);
-
     return (
         <Paper>
             <div style={FeedsContainerStyle}>
                 {feeds.map((feed) => {
                     return (
-                        <div style={FeedsContainerStyle.imgWrapper}>
-                            <img height={50} width={50} key={feed.id} src={feed.images.thumbnail.url} alt={''}/>
+                        <div style={FeedsContainerStyle.imgWrapper} key={feed.id}>
+                            <img height={50} width={50} src={feed.images.thumbnail.url} alt={''}/>
                         </div>
                     )
                 })}

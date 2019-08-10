@@ -12,6 +12,9 @@ const
                         <Title title={'About Me'}/>
                     </Col>
                     <Col md={12}>
+                        <hr/>
+                    </Col>
+                    <Col md={12}>
                         <p>
                             I'm a developer based in <b>Munich, Germany,</b> originally from <b>Tunisia</b>,
                             specializing in building <b>WEB</b> & <b>Mobile</b> apps,

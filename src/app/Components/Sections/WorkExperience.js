@@ -19,6 +19,11 @@ const WorkExperience = () => {
                 </Row>
                 <Row>
                     <Col md={12}>
+                        <hr/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
                         <p>This is a short intro to what I've been up to lately.</p>
                     </Col>
                 </Row>

@@ -3,7 +3,8 @@ import React from 'react';
 const PaperStyle = {
     padding: 20,
     marginBottom: 30,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    position: 'relative'
 };
 
 const Paper = (props) => (

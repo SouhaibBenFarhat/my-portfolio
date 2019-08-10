@@ -11,17 +11,19 @@ const NavigationBar = ({history}) => {
     }, [routeKey, history]);
 
     return (
-        <Nav
-            className="justify-content-end"
-            defaultActiveKey="/"
-            onSelect={(selectedKey) => setRouteKey(selectedKey)}>
-            <Nav.Item>
-                <Nav.Link eventKey="/">Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="/open-source-project">Open Projects</Nav.Link>
-            </Nav.Item>
-        </Nav>
+        <div className='navigation'>
+            <Nav
+                className="justify-content-end"
+                defaultActiveKey="/"
+                onSelect={(selectedKey) => setRouteKey(selectedKey)}>
+                <Nav.Item>
+                    <Nav.Link eventKey="/">Work Experience</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link eventKey="/open-source-project">Open Projects</Nav.Link>
+                </Nav.Item>
+            </Nav>
+        </div>
     )
 };
 

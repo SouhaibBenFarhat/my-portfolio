@@ -16,7 +16,9 @@ const Contact = () => {
             <TextWithIcon icon={faMailBulk}
                           text={<a href='mailto:souhaib.b.farhat@gmail.com'>souhaib.b.farhat@gmail.com</a>}/>
             <div className='mt-2'>
-                <PrimaryButton withIcon text={'Contact Me'} icon={faLocationArrow}/>
+                <a href='mailto:souhaib.b.farhat@gmail.com'>
+                    <PrimaryButton withIcon text={'Contact Me'} icon={faLocationArrow}/>
+                </a>
             </div>
         </div>
     )
