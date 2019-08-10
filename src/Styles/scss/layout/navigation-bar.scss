@@ -1,0 +1,12 @@
+$navHeight: 40px;
+.nav {
+  background-color: transparent;
+  margin-bottom: -$navHeight;
+  height: $navHeight;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: $white;
+}

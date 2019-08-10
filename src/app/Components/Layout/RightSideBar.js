@@ -6,6 +6,8 @@ import Contact from "../Sections/Contact";
 import Skills from "../Sections/Skills";
 import Languages from "../Sections/Languages";
 import Awards from "../Sections/Awards";
+import SocialButtons from "./SocialButtons";
+import InstagramFeed from "./InstagramFeed";
 
 const RightSideBar = () => {
     return (
@@ -17,6 +19,16 @@ const RightSideBar = () => {
                     </Col>
                 </Row>
             </Paper>
+            <Row>
+                <Col md={12}>
+                    <SocialButtons/>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <InstagramFeed/>
+                </Col>
+            </Row>
             <Row>
                 <Col md={12}>
                     <Skills/>

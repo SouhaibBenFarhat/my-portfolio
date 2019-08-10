@@ -3,7 +3,9 @@
 }
 
 .header {
-  background-image: url(images_asset_url('/images/header-bg.png'));
+  background-image: url(images_asset_url('/images/header-bg.jpg'));
   padding: 40px;
   margin-bottom: 30px;
+  background-position: center;
+  background-size: cover;
 }

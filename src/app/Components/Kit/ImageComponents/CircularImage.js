@@ -1,8 +1,8 @@
 import React from 'react';
 
 const styledImage = {
-    height: 220,
-    width: 220,
+    height: 140,
+    width: 140,
     borderRadius: '50%'
 };
 
